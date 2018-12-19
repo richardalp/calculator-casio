@@ -1,1 +1,133 @@
-css style
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg.jpg) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'digital';
+    src: url(../font/digital.ttf);
+    font-style: normal;
+}
+@font-face {
+    font-family: 'casio';
+    src: url(../font/casio.otf);
+    font-style: normal;
+}
+input:focus {
+    outline:none;
+}
+.font-tang{
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.7);
+    padding: 0 0 0 20px;
+}
+.clearhistory{
+    background: transparent;
+    font-size: 70px;
+    font-family: 'Tangerine', cursive;
+    color: brown;
+    border: none;
+    outline: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.casio{
+    background: url(../img/casio.png) no-repeat;
+    width: 540px;
+    height: 733px;
+    text-align: center;
+}
+form .textview{
+    margin: 175px 0 0 0;
+    margin-left: 8px;
+    width: 400px;
+    height: 120px;
+    background: transparent;
+    border: none;
+}
+.textview{
+    font-family: 'digital';
+    font-size: 600%;
+}
+.wrapperbuttons{
+    margin-top: 69px;
+}
+ul{
+    margin: 0 0 0 55px;
+    padding: 0;
+    float: left;
+}
+.first li{
+    padding: 16px 19px 15px 25px;
+    margin: 0 20px 26px 0;
+}
+.second li{
+    padding: 18px 19px 15px 25px;
+    margin: 0 20px 27px 0;
+}
+.third li{
+    padding: 18px 19px 15px 25px;
+    margin: 0 20px 22px 0;
+}
+.fourth li{
+    padding: 18px 19px 15px 25px;
+    margin: 0 20px 26px 0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.casiofont{
+    font-family: 'casio';
+    background: transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    margin-left: 5px;
+}
+.button {
+    border: none;
+    font-family: 'casio';
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    height: 24px;
+    width: 23px
+}
+.book{
+    margin: 100px 30px 0 30px;
+    padding: 40px;
+    background: url(../img/book.png) no-repeat;
+    height: 450px;
+    width: 600px;
+}
+/* ==================== table
+table input{
+    font-family: 'casio';
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    color: white;
+}
+table{
+    margin: 84px 0 0 66px;
+}
+table td{
+    padding:0 61px 53px 0;
+}
+tr td:nth-child(2n + 1){
+    background: green;
+} */ 
